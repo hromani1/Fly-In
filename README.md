@@ -249,11 +249,9 @@ AI tools were used as a supplementary development and learning resource during t
 
 They were used for:
 
-Understanding and debugging Python code.
 Explaining algorithms and data structures, particularly Dijkstra's algorithm, A* search, priority queues, and reservation tables.
 Investigating bugs and unexpected behavior in the pathfinding and scheduling logic.
 Improving code organization and readability.
-Generating and reviewing PEP 257-compatible Python docstrings.
 Helping format code according to Python style conventions.
 Assisting with the documentation and structure of this README.
 
