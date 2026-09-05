@@ -1,0 +1,13 @@
+nb_drones: 2
+
+
+start_hub: start 0 0 [color=green max_drones=4]
+hub: bottleneck 1 0 [color=orange max_drones=1]
+hub: prior 1 1 [zone=priority color=orange max_drones=1]
+end_hub: goal 3 0 [color=red max_drones=4]
+
+connection: start-bottleneck [max_link_capacity=1]
+connection: start-prior [max_link_capacity=1]
+connection: bottleneck-prior [max_link_capacity=1]
+connection: bottleneck-goal [max_link_capacity=1]
+connection: prior-goal [max_link_capacity=1]
